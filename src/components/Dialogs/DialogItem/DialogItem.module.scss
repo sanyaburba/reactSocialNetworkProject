@@ -1,0 +1,52 @@
+.dialog__item {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  max-height: 65px;
+  max-width: 330px;
+  transition: 0.5s all ease;
+  border: 1px solid rgba(0, 0, 0, 0 );
+
+  &:hover {
+    background: #dce1e6;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    transition: 0.5s ease;
+    border-radius: 10px;
+  }
+}
+
+
+.dialog__row {
+  display: flex;
+}
+
+.dialog__userLogo {
+  & img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+}
+
+.dialog__body {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
+  //border-bottom: 1px solid rgba(0, 0, 0, 0.53);
+}
+
+.userName {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.userMessage {
+  color: rgba(0, 0, 0, 0.53);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

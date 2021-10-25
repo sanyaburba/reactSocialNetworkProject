@@ -1,0 +1,32 @@
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+.div {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  width: 150px;
+  height: 130px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 5px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.selected {
+  background: #f8e432;
+  font-size: 20px;
+}
